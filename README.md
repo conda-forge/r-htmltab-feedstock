@@ -1,11 +1,11 @@
-About r-htmltab
-===============
+About r-htmltab-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-htmltab-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/htmltab/htmltab
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-htmltab-feedstock/blob/main/LICENSE.txt)
 
 Summary: HTML tables are a valuable data source but extracting and recasting these data into a useful format can be tedious. This package allows to collect structured information from HTML tables. It is similar to `readHTMLTable()` of the XML package but provides three major advantages. First, the function automatically expands row and column spans in the header and body cells. Second, users are given more control over the identification of header and body rows which will end up in the R table, including semantic header information that appear throughout the body. Third, the function preprocesses table code, corrects common types of malformations, removes unneeded parts and so helps to alleviate the need for tedious post-processing.
 
