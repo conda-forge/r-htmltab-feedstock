@@ -1,6 +1,5 @@
 {% set version = '0.8.2' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-htmltab
@@ -13,8 +12,7 @@ source:
   sha256: 8e52a571a9e514d3624c0c6c967137ceb4044b30186aa00ea51f0e97c6701626
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
